@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Temprture Checker";
+}
+
+<h1>You can check your temprture bellow!</h1>
+
+<form asp-action="FeverCheck" method="post">
+    <label for="quantity">Enter Your temprture:</label>
+    <input type="number" id="quantity" name="quantity" min="30" max="50" required>
+    <input type="submit" value="Send">
+</form>
+
+<div id="message">@ViewBag.Msg</div>

@@ -1,0 +1,17 @@
+﻿body {
+    background-color: aqua;
+    width: auto;
+    border: solid;
+}
+
+footer {
+    background-color: darksalmon;
+    text-align: center;
+    height: 25px;
+}
+#page{background-color:aliceblue;}
+#message{background-color:gray;
+         height:50px;
+}
+
+
